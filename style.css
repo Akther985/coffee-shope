@@ -309,4 +309,9 @@ p{
 .slick-dots li button:before {
     display: none;
 }
+/* ul intro area  style start here  */
+.ul-intro-area{
+    background-color: #FFFAF2;
+    height: 246px;
+}
 
