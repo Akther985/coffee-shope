@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'Abril Display BL';
+    src: url('AbrilDisplay-Black.woff2') format('woff2'),
+        url('AbrilDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display';
+    src: url('AbrilDisplay-Bold.woff2') format('woff2'),
+        url('AbrilDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display BL';
+    src: url('AbrilDisplay-BlackItalic.woff2') format('woff2'),
+        url('AbrilDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display';
+    src: url('AbrilDisplay-BoldItalic.woff2') format('woff2'),
+        url('AbrilDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display EB';
+    src: url('AbrilDisplay-ExtraBold.woff2') format('woff2'),
+        url('AbrilDisplay-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display EB';
+    src: url('AbrilDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url('AbrilDisplay-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display';
+    src: url('AbrilDisplay-Regular.woff2') format('woff2'),
+        url('AbrilDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display';
+    src: url('AbrilDisplay-Italic.woff2') format('woff2'),
+        url('AbrilDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display SB';
+    src: url('AbrilDisplay-SemiBold.woff2') format('woff2'),
+        url('AbrilDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Text EB';
+    src: url('AbrilText-ExtraBold.woff2') format('woff2'),
+        url('AbrilText-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Text';
+    src: url('AbrilText-Bold.woff2') format('woff2'),
+        url('AbrilText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Display SB';
+    src: url('AbrilDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('AbrilDisplay-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('AbrilFatface-Regular.woff2') format('woff2'),
+        url('AbrilFatface-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Text';
+    src: url('AbrilText-BoldItalic.woff2') format('woff2'),
+        url('AbrilText-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('AbrilFatface-Italic.woff2') format('woff2'),
+        url('AbrilFatface-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Text';
+    src: url('AbrilText-Regular.woff2') format('woff2'),
+        url('AbrilText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Text EB';
+    src: url('AbrilText-ExtraBoldItalic.woff2') format('woff2'),
+        url('AbrilText-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Text';
+    src: url('AbrilText-Italic.woff2') format('woff2'),
+        url('AbrilText-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Text SB';
+    src: url('AbrilText-SemiBoldItalic.woff2') format('woff2'),
+        url('AbrilText-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Abril Text SB';
+    src: url('AbrilText-SemiBold.woff2') format('woff2'),
+        url('AbrilText-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bakilda Histori';
+    src: url('BakildaHistori-Regular.woff2') format('woff2'),
+        url('BakildaHistori-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-Medium.woff2') format('woff2'),
+        url('ValueSansPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-Bold.woff2') format('woff2'),
+        url('ValueSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-BlackItalic.woff2') format('woff2'),
+        url('ValueSansPro-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-BoldItalic.woff2') format('woff2'),
+        url('ValueSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-Italic.woff2') format('woff2'),
+        url('ValueSansPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-Black.woff2') format('woff2'),
+        url('ValueSansPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-MediumItalic.woff2') format('woff2'),
+        url('ValueSansPro-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-Regular.woff2') format('woff2'),
+        url('ValueSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

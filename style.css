@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bakilda Histori';
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-family: Bakilda Histori Serif;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: Value Sans Pro;    
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+/* our header area style start here  */
+.ulheader-section{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+.ul-main-area{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-navbar-bar{
+    display: flex;
+    justify-content: space-between;  
+}
+.ul-header-contact{
+    display: flex;
+    justify-content: space-between;   
+}
+.ul-nav-link{
+    color: #270A05;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Value Sans Pro';
+    margin-top: 27px;
+    display: block;
+    margin-right: 30px;
+}
+
+.ul-nav-link:hover{
+    color: #86371C;
+}
+.ul-nav-items-relative{
+    position: relative;
+}
+.ul-submenu{    
+    position: absolute;
+    width: 160px;
+    height: 120px;   
+    background-color:#86371C; 
+    visibility: hidden;
+    opacity: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.ul-submenu li{
+    display: block;      
+}
+.ul-submenu li:hover{  
+    background-color: #3a3938;
+    
+}
+.ul-submenu li a{     
+    margin-left: 10px; 
+    display: block;  
+    color: #FFFFFF;    
+}
+
+.ul-nav-items-relative:hover .ul-submenu{
+    visibility: visible;
+    opacity: 1;
+    transition: all 1s;
+}
+.ulnav-link-relative{
+    margin-right: 40px;
+    display: block;
+}
+.ulnav-link-relative::after{
+    position: absolute;
+    content: url('assets/images/down-arro.png');
+    width: 7px;   
+    height: 12px;
+    margin-left: 5px;
+}
+.ul-logo{
+    width: 202px;
+    height:31.01px ;
+    margin-top: 27px;
+}
+
+.ul-header-icon{
+    margin-top: 27px;
+}
+.ul-header-icon a{
+    margin-right: 12px;
+}
+.ul-icon img:hover{
+    color: #86371C;
+}
+.ulheader-contact{
+    margin-top: 27px;
+    margin-left: 60px
+}
+.ul-admin{
+    margin-right: 10px;
+}
+.ulheader-contact a{
+    color: #270A05;
+    font-family: 'Value Sans Pro';
+    font-weight: 500
+}
+.ulheader-contact a:hover{
+    color: #86371C;
+}
+.ul-icon{
+    position: relative;
+}
+.ul-icon-number{
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;    
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    top: -10px;
+    left: 12px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+/* our hero section start here  */
+.ul-hero-slider-area{
+    display: flex;
+    background-image: url(assets/images/herobg.png);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    position: relative;    
+     
+}
+.ulhero-area{    
+    border-right: 5px solid #101113;
+    margin-left: 120px;      
+}
+.ultop-header{
+    position: absolute;
+    top: 265px;  
+    left: 277px;  
+    font-family: "Lemonada", cursive;
+    font-size: 16px;
+    line-height: 26px;
+}
+.ul-hero-left h2{
+    position: absolute;
+    font-size: 110px;
+    width: 545px;
+    line-height: 124px;
+    font-weight: 400;
+    top: 303px; 
+    left: 277px;   
+    font-family: 'Bakilda Histori';
+
+}
+.ul-hero-left h4{
+    position: absolute;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 60px;
+    top: 437px;  
+    left: 277px;   
+    font-family: 'Bakilda Histori';
+}
+.ul-hero-para{
+    position: absolute;
+    top: 521px; 
+    left: 277px;   
+    opacity: 60%;
+    height: 81px;
+    width: 668px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    
+}
+.ulhero-btn-area{
+    display: flex;
+    position: absolute;
+    top: 648px;
+    left: 277px;
+    
+}
+.ulhero-btn a{
+    background-color: #86371C;
+    padding: 18px 30px 18px 30px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Value Sans Pro';
+    margin-right: 40px;
+
+}
+.ulhero-btn-img{
+    position: relative;
+    
+}
+.ul-btn-img{
+    position: absolute;
+    left: 45px;
+    top: 0;
+}
+.ul-btn-img-one{
+    position: absolute;
+    left: 85px;
+    top: 0;
+}
+.ulhero-btn-info{
+    position: absolute;
+    left: 420px;
+    width: 170px;
+}
+.ulhero-btn-info h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    font-family: 'Abril Display';
+
+}
+.ulhero-btn-info p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Value Sans Pro';
+
+}
+.ulright-hero-area img {
+    position: absolute;
+    top: 143px;
+    width: 754px;
+    height: 630px;
+    right: 120px;
+}
+.ul-hero-line-top img{
+    position: absolute;
+    width: 100%;
+    top: 104px;
+}
+.ul-hero-line img {
+    position: absolute;
+    height: auto;
+    left: 150px;
+    top: 104px;
+    
+}
+/* hero slider style here  */
+.slick-dots {
+    position: absolute;
+    bottom: 0px;
+    left: 277px; 
+    text-align: start;   
+}
+.slick-dots li{       
+    height: 5px;
+    width: 5px;
+    padding: 5px;
+    cursor: pointer;    
+    background-color: #e9e7e6; 
+    border-radius: 50%;    
+}
+.slick-dots li.slick-active { 
+    background-color: #86371c; 
+    height: 5px;
+    width: 5px;    
+}
+.slick-dots li button:before {
+    display: none;
+}
+
