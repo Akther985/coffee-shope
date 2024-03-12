@@ -234,6 +234,11 @@ p{
     margin-right: 40px;
 
 }
+.ulhero-btn a:hover {    
+    background-color: #101113;    
+    transition: all 1s;
+    
+}
 .ulhero-btn-img{
     position: relative;
     
@@ -302,16 +307,106 @@ p{
     border-radius: 50%;    
 }
 .slick-dots li.slick-active { 
-    background-color: #86371c; 
+    background-color: #86371C; 
     height: 5px;
     width: 5px;    
 }
 .slick-dots li button:before {
     display: none;
 }
-/* ul intro area  style start here  */
+/* our ul intro area style start here  */
 .ul-intro-area{
+    display: flex;
+    justify-content: space-between;
     background-color: #FFFAF2;
     height: 246px;
+}
+.single-ul-intro{
+    align-items: center;
+}
+.single-ul-intro h4{
+    font-size: 24px;
+    
+}
+.single-ul-intro-one{
+    position: relative;
+    background-image: url(assets/images/Overview-Section-1.png);    
+    width: 319px;
+    height: 326px;
+    margin-left: 277px;
+}
+
+.play_overlay {
+    position: absolute;
+    top: 63%;
+    left: 14%;    
+}
+.play_overlay a i {
+    position: relative;
+    z-index: 10;
+    color: #fff;
+}
+.play_overlay a {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    line-height: 75px;
+    border: 1px solid #101113;
+    color: var(--light);
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 23px;
+    position: relative;
+    z-index: 2
+}
+.play_overlay a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: vb_bbg 1.5s ease infinite;
+    background: #101113;
+    border-radius: 50%;
+    z-index: 1;
+}
+@keyframes vb_bbg {
+    0%{
+        transform: scale(1)
+    }
+    30% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(2.2);
+        opacity: 0
+    }
+}
+.ul-intro-video-info{
+    color: #F2EFDF;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Abril Display';
+    margin-left: 10px;
+}
+.single-intro-img{
+    position: absolute;
+    top: 27px;    
+    left: 65px;
+}
+.vbox-overlay .vbox-prev{
+    display: none;
+}
+
+
+
+
+
+
+/* our chooes area style start here  */
+.single-counter img{
+    height: 120px;
 }
 

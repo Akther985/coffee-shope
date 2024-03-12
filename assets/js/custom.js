@@ -54,6 +54,10 @@
               
             ]
           }); 
+          $('.venobox').venobox({
+            numeratio: true,
+            infinigall: true
+          });
          
         
 
