@@ -522,4 +522,80 @@ p{
     line-height: 60px;
     font-family: 'Bakilda Histori';    
 }
+.single-coffee-menu{
+    display: flex;  
+    justify-content: space-between; 
+    height: 144px; 
+    border: 1px solid #D1D1D1;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+.single-coffee-menu img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+.single-coffee-menu-info{
+    display: flex;
+}
+.coffee-menu-info h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    font-family: 'Abril Display';
+}
+.coffee-menu-info{
+    text-align: left;
+}
+.coffee-menu-info p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Value Sans Pro';
+    width: 320px;
+}
+.coffee-menu-price img{
+    margin: 0;
+}
+.ulcoffee-btn{
+    border: 1.5px solid #86371C;
+    padding: 18px 30px;
+    margin-top: 60px;
+    display: inline-block;
+    border-radius: 12px;
+    color: #86371C;
+    justify-content: center;
+    
+}
+.ulcoffee-btn:hover{
+    background-color: #86371C;
+    color: #FFFFFF;
+    transition: all 1s;
+}
+.ulcoffee-section{
+    text-align: center;
+}
+
+/* our blogle area style start here  */
+.slider-single-area{
+    width: 468px;
+    margin-left: 277px;
+    
+}
+
+.blog-single-slider{
+    display: flex;
+}
+.slider-single-area p{
+    margin-top: 20px;
+
+}
+.slider-single-img-area{
+    width: 375px;
+    margin-left: 20px;
+}
+.blog-single-slider{
+    margin: 60px -160px 0px 0px;
+}
+
 
