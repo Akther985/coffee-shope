@@ -1,24 +1,18 @@
 (function ($) {
     "use strict";
-    jQuery(document).ready(function($){       
-
-        $(".menu-trigger").on("click", function(){
-            $(".off-canvar-menu, .off-canvar-overlay").addClass("active");
-            return false;
-        });
-        $(".menu-close, .off-canvar-overlay").on("click", function(){
-            $(".off-canvar-menu, .secess-page").removeClass("active");
-            return false;
-        }); 
+    jQuery(document).ready(function($){      
+       
         // mobile off canver menu 
         $(".menu-trigger").on("click", function(){
           $(".off-canvar-mobile-menu, .off-canvar-overlay").addClass("active");
           return false;
       });
+
       $(".menu-close").on("click", function(){
           $(".off-canvar-mobile-menu").removeClass("active");
           return false;
-      }); 
+      });       
+      
         $('.responsive').slick({
             dots:true,
             infinite: true,
@@ -53,16 +47,18 @@
               }
               
             ]
-          }); 
+          });             
+
           $('.venobox').venobox({
             numeratio: true,
             infinigall: true
           });
-         
-        
 
+          $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
       
-    }); 
-    
+    });    
 
 }(jQuery));

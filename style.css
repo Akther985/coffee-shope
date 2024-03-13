@@ -321,11 +321,13 @@ p{
     background-color: #FFFAF2;
     height: 246px;
 }
-.single-ul-intro{
-    align-items: center;
+.single-ul-intro {   
+    height: 110px;    
+    margin: 80px;
 }
 .single-ul-intro h4{
     font-size: 24px;
+    margin-bottom: 20px;
     
 }
 .single-ul-intro-one{
@@ -334,8 +336,19 @@ p{
     width: 319px;
     height: 326px;
     margin-left: 277px;
+    margin-top: 0;
 }
-
+.single-ul-intro-text {
+    text-align: center;
+    margin: 80px 50px;
+    width: 200px;
+}
+.single-ul-intro-text a{
+    color: #101113;
+}
+.single-ul-intro-list{
+    text-align: right;
+}
 .play_overlay {
     position: absolute;
     top: 63%;
@@ -400,13 +413,113 @@ p{
     display: none;
 }
 
-
-
-
-
-
 /* our chooes area style start here  */
-.single-counter img{
+.ulchooes-title{
+    position: relative;
+    margin-left: 60px;
+    font-family: "Lemonada", cursive;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.ulchooes-title::after {
+    position: absolute;
+    content: url(assets/images/Vector6.svg);
+    left: -55px;    
+}
+.single-counter img {
     height: 120px;
+    
+}
+.single-counter{
+    position: relative;
+}
+.single-counter-info {
+    position: absolute;    
+    bottom: 10px;
+    left: 30px;
+    text-align: center;
+}
+.single-counter-info h4{
+    font-size: 44px;
+    font-family: 'Bakilda Histori';
+}
+.single-counter-info p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.ulchooes-info-heding{
+    margin-top: 200px;
+}
+.ulchooes-info-heding h2{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 60px;
+    font-family: 'Bakilda Histori';
+}
+.ulchooes-info-heding p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    font-family: 'Value Sans Pro';
+}
+.ulchooes-count{
+    margin: 40px 0px;
+    display: flex;
+}
+.single-counter{
+    margin-right: 30px;
+}
+.ulchooes-count-btn{
+    border: 1.5px solid #86371C;
+    padding: 18px 30px;
+    margin-top: 40px;
+    display: inline-block;
+    border-radius: 12px;
+    color: #86371C;
+}
+.ulchooes-count-btn:hover{
+    background-color: #86371C;
+    color: #FFFFFF;
+    transition: all 1s;
+}
+
+.ul-choose-img img{
+    margin-top: 200px;
+    width: 464px;
+    height: 528px;
+    margin-left: 200px;
+}
+
+
+/* OUR ul coffee section style start here  */
+.ulcoffee-menu-heder{
+    text-align: center;
+}
+.coffee-menu-heding{
+    position: relative;
+    margin-top: 60px;
+    display: block;
+    font-family: "Lemonada", cursive;
+    color: #86371C;
+    font-size: 16px;
+    font-weight: 380px;
+    line-height: 16px; 
+    margin-bottom: 20px;  
+
+}
+.coffee-menu-heding::before {
+    position: absolute;
+    content: url(assets/images/Vector6.svg);    
+    margin-left: -60px;
+    top: -5px;
+}
+.ulcoffee-menu-heder h2{
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 60px;
+    font-family: 'Bakilda Histori';    
 }
 
