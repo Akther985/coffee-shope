@@ -1,6 +1,7 @@
 (function ($) {
     "use strict";
     jQuery(document).ready(function($){      
+      
        
         // mobile off canver menu 
         $(".menu-trigger").on("click", function(){
@@ -47,12 +48,16 @@
               }
               
             ]
-          });             
+          });  
+          
+           
 
           $('.venobox').venobox({
             numeratio: true,
             infinigall: true
-          });
+          });   
+
+           
 
           $('.blog').slick({
             dots:false,
@@ -88,14 +93,15 @@
               }
               
             ]
-          });    
-          
+          });   
+
          
-
-          
-
           
       
-    });    
+    });  
+    
+    jQuery (window).lode(function(){
+      $(".hero-img-list").masonry();  
+    });  
 
 }(jQuery));
