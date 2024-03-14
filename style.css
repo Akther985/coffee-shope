@@ -674,5 +674,9 @@ p{
     background-image: url(assets/images/Background.png);
     height: 110px;
 }
+.ul-main-footer{
+    display: flex;
+    justify-content: space-between;
+}
 
 
